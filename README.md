@@ -6,4 +6,5 @@ GoLang installed and GOPATH set
 * Navigate to project directory
 * Run `go run`
 * The server is now running on port `8080`
-* Send request to valid URL, if an empty string is provided the application will send a request to `localhost:8080/get-json?getUrl=https://jsonplaceholder.typicode.com/posts/1`
+* Send request to URL (expecting `JSON` response) using the `getUrl` path parameter, example URL: `http://localhost:8080/get-json?getUrl=<REST endpoint URL>`  
+If an empty string is provided the application will send a request to `https://jsonplaceholder.typicode.com/posts/1`
